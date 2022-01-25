@@ -1,0 +1,160 @@
+[
+  {
+    "name": "PHP",
+    "value": [
+      {
+        "framework": "Yii2",
+        "role": "Developer",
+        "category": [
+          {
+            "name": "Frontend - E-Commerce system",
+            "content": [
+              "Construct E-commerce systems with full functionality",
+              "Provide excellent UX/UI and functionality implementation clear and elegant website for potential clients",
+              "Build up functionalities on product listing, shopping cart, order making, payment, multi-languages for the whole purchase process"
+            ]
+          },
+          {
+            "name": "Backend - Traditional CMS",
+            "content": [
+              "Apply expandable and ease-of-use content management system, comprehensive permission control",
+              "Show data and content in an intuitive and informative layout",
+              "Develop management for user, order, product and multi-languages with CRUD operations connected to database"
+            ]
+          },
+          {
+            "name": "Database",
+            "content": [
+              "Connect to MySQL as database",
+              "Design database structure for E-Commerce usage, adaptive for multi-languages products, order, permission control and essential data storage for E-Commerce"
+            ]
+          }
+        ]
+      },
+      {
+        "framework": "Slim",
+        "role": "Developer",
+        "category": [
+          {
+            "name": "Backend - API",
+            "content": [
+              "Develop a maintainable and scalable API server",
+              "Provide secured endpoint server by implementing OAuth2 - authorization code approach, SQL injection prevention, cross origin restriction and so on",
+              "Assure project quality by using postman for comprehensive testing"
+            ]
+          },
+          {
+            "name": "Database - MySQL",
+            "content": [
+              "Connect to MySQL as database",
+              "Design database structure for record collection usage, adaptive for different types of incident and log in normalized structure with ORM"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Node.js",
+    "value": [
+      {
+        "framework": "VueJs",
+        "role": "Developer + QA Tester",
+        "category": [
+          {
+            "name": "Frontend",
+            "content": [
+              "Show organized and refined dashboard layout of overviewing the system for decision making",
+              "Expand management system for adapting various requirements for different aspects",
+              "Integrate API into frontend from backend server"
+            ]
+          }
+        ]
+      },
+      {
+        "framework": "Svelte",
+        "role": "Developer + QA Tester",
+        "category": [
+          {
+            "name": "Frontend",
+            "content": [
+              "Represent stunning and elegant UI",
+              "Create smooth and beautiful animation as decoration for the site"
+            ]
+          },
+          {
+            "name": "Backend - headless CMS",
+            "content": [
+              "Develop CMS and API server with strapi",
+              "Control secured connect with permission granting and revoking to the access",
+              "Provide contentful and concise data management system"
+            ]
+          }
+        ]
+      },
+      {
+        "framework": "Express",
+        "role": "Developer",
+        "category": [
+          {
+            "name": "Backend - API",
+            "content": [
+              "Develop a maintainable and scalable API server",
+              "Provide secured endpoint server by implementing OAuth2 - authorization code approach, SQL injection prevention, cross origin restriction and so on",
+              "Assure project quality by using postman for comprehensive testing"
+            ]
+          },
+          {
+            "name": "Database - MongoDB",
+            "content": [
+              "Connect to MongoDB as database",
+              "Design database structure for record collection usage, adaptive for different types of incident in non-normalized structure with ODM"
+            ]
+          }
+        ]
+      },
+      {
+        "framework": "GCP",
+        "role": "Developer",
+        "category": [
+          {
+            "name": "Cloud Functions",
+            "content": [
+              "Create APIs for frontend usage",
+              "Provide Security by restricting access"
+            ]
+          },
+          {
+            "name": "Firebase",
+            "content": [
+              "Connect to Firestore as database",
+              "Make use of Firebase Authentication as OAuth2 Provider for fast and secured authorization"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Other",
+    "value": [
+      {
+        "framework": "Tools",
+        "role": "",
+        "category": [
+          {
+            "name": "",
+            "content": [
+              "Version Controlling System:<span class='contentLeft'>Github, Gogs</span>",
+              "API Testing Platform:<span class='contentLeft'>Postman, Yapi</span>",
+              "Project Management System:<span class='contentLeft'>Trello</span>",
+              "Bug Reporting System:<span class='contentLeft'>Jira</span>",
+              "Colleagues Communication Platform:<span class='contentLeft'>Slack</span>",
+              "Deployment Platform:<span class='contentLeft'>Google Cloud Platform, Github</span>"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
