@@ -1,9 +1,9 @@
 import {app, analytics} from '../../database/firebase';
 
-import { getFunctions, httpsCallable, connectFunctionsEmulator } from "firebase/functions";
+import { getFunctions, httpsCallable } from "firebase/functions";
 
 const functions = getFunctions(app);
-connectFunctionsEmulator(functions, "localhost", 5001);
+// connectFunctionsEmulator(functions, "localhost", 5001);
 const signalToMe = httpsCallable(functions, 'signalToMe');
 
 
