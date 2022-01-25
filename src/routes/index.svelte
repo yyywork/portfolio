@@ -22,7 +22,6 @@ function changeTab(index) {
 <nav>
   <span class="header-item" class:textShadowAnim={currentTab === 0} on:click={() => changeTab(0)}>Home</span>
   <span class="header-item" class:textShadowAnim={currentTab === 1} on:click={() => changeTab(1)}>Introduction</span>
-  <!-- <span class="header-item" on:click={() => currentTab = 2}>Experience & Education</span> -->
   <span class="header-item" class:textShadowAnim={currentTab === 3} on:click={() => changeTab(3)}>Ability</span>
   <span class="header-item" class:textShadowAnim={currentTab === 4} on:click={() => changeTab(4)}>Contact</span>
 </nav>
