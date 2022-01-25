@@ -100,12 +100,11 @@
 
   async function send(){
     if(inputVal['inputactionRequest_1'] === "(Wave at Ying)" && inputVal['inputsendConfirm'] === "Transmit signal"){
-      console.log('ready for api')
       
       const contactAns = inputVal['inputcontactRequest']
       const orgAns = inputVal['inputorganizationRequest']
       const nameAns = inputVal['inputnameRequest']
-      const res = await fetch('/apis/signal', {
+      /* const res = await fetch('/apis/signal', {
         method: 'post',
         body: JSON.stringify({ contactAns, orgAns, nameAns }),
         headers: {
@@ -113,8 +112,7 @@
         }
       })
       
-      const json = await res.json()
-      console.log('result from contact', JSON.stringify(json))
+      const json = await res.json() */
     }
   }
 
