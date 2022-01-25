@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "sender": "Pilly",
+    "dialogue": [
+      {
+        "id": 1,
+        "type": 1,
+        "content": "Hi, I am Pilly - Ying's robot assistant, I am here to transmit the contact signal for you."
+      },
+      {
+        "id": 2,
+        "type": 3,
+        "options": {
+          "name": "nameRequest",
+          "required": true,
+          "relativeFrom": [
+            {
+              "id": 7
+            }
+          ]
+        },
+        "content": "How can I call you?"
+      },
+      {
+        "id": 3,
+        "type": 3,
+        "options": {
+          "name": "organizationRequest",
+          "relativeFrom": [
+            {
+              "id": 2
+            }
+          ]
+        },
+        "content": "Can I know more about you?(Optional)"
+      },
+      {
+        "id": 4,
+        "type": 3,
+        "options": {
+          "name": "contactRequest",
+          "relativeFrom": [
+            {
+              "id": 3
+            }
+          ]
+        },
+        "content": "How to contact you?(Optional)"
+      },
+      {
+        "id": 5,
+        "type": 2,
+        "options": {
+          "name": "actionRequest_1",
+          "relativeFrom": [
+            {
+              "id": 8
+            },
+            {
+              "id": 9
+            }
+          ],
+          "selection": [
+            "Know more about Ying",
+            "(Wave at Ying)"
+          ]
+        },
+        "content": "What do you want next?"
+      },
+      {
+        "id": 6,
+        "type": 2,
+        "options": {
+          "name": "sendConfirm",
+          "relativeFrom": [
+            {
+              "id": 5,
+              "selection": [
+                "(Wave at Ying)"
+              ]
+            }
+          ],
+          "selection": [
+            "Transmit signal",
+            "Not yet"
+          ]
+        },
+        "content": "Are you ready for the transmission?"
+      },
+      {
+        "id": 7,
+        "type": 1,
+        "options": {
+          "relativeFrom": [
+            {
+              "id": 6,
+              "selection": [
+                "Not yet"
+              ]
+            }
+          ]
+        },
+        "content": "Please re-enter the information."
+      },
+      {
+        "id": 8,
+        "type": 1,
+        "options": {
+          "relativeFrom": [
+            {
+              "id": 6,
+              "selection": [
+                "Transmit signal"
+              ]
+            }
+          ]
+        },
+        "content": "The signal has been sent out!"
+      },
+      {
+        "id": 9,
+        "type": 1,
+        "options": {
+          "relativeFrom": [
+            {
+              "id": 5,
+              "selection": [
+                "Know more about Ying"
+              ]
+            }
+          ]
+        },
+        "content": [
+          "<a href='https://www.linkedin.com/in/ka-ying-ng-2626a7227/' target='_blank'>linkedin</a>/<a href='https://github.com/yyywork' target='_blank'>Github</a>/<a href='https://www.teafun.cyou/' target='_blank'>Show case</a>",
+          "Welcome to keep in touch with me!"
+        ]
+      }
+    ]
+  }
+]
