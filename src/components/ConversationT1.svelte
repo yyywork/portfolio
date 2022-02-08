@@ -1,8 +1,8 @@
 <script>
   export let sender;
-  // export let id;
+  export let id;
   export let content;
-  // export let options;
+  export let options;
 </script>
 <div class="conversationLine isLeft">
   <div class="lineSender">{sender}:</div>
