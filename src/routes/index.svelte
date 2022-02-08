@@ -5,8 +5,8 @@ import Ability from '../components/Ability.svelte';
 import Contact from '../components/Contact.svelte';
 import { onMount } from 'svelte';
 import { globalConfig, globalConfig_reset, globalConfig_set } from '../store/store';
-// let currentTab = -1;
 let currentTab = -1;
+// let currentTab = 4;
 
 const d = new Date();
 let year = d.getFullYear();
@@ -77,7 +77,7 @@ function changeTab(index) {
           but I am open to any language or area!
         </p>
         <br>
-        <p>I love to make thing simple,<br>
+        <p>I love to make things simple,<br>
           I have a tendency on designing something reusable in programming way,<br>
           Like implementing a common module or component.<br>
           Also, thinking comprehensive is one of my features,<br>

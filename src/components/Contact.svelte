@@ -104,15 +104,21 @@
       const contactAns = inputVal['inputcontactRequest']
       const orgAns = inputVal['inputorganizationRequest']
       const nameAns = inputVal['inputnameRequest']
+      /* const res = await fetch('/apis/getToken', {
+        method: 'get',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      }) */
       /* const res = await fetch('/apis/signal', {
         method: 'post',
         body: JSON.stringify({ contactAns, orgAns, nameAns }),
         headers: {
           'Content-Type': 'application/json'
         }
-      })
+      }) */
       
-      const json = await res.json() */
+      // const json = await res.json()
     }
   }
 

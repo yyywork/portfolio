@@ -12,7 +12,7 @@ const config = {
 	kit: {
 		paths: {
 			// set base url, or github page will load asset from .io/ not .io/portfolio
-			base: mode ? '/' : '/portfolio',
+			// base: mode ? '/' : '/portfolio',
 		},
 		// hydrate the <div id="svelte"> element in src/app.html
 		adapter: adapter({

@@ -1,11 +1,10 @@
-import {app, analytics} from '../../database/firebase';
+import {app, functions} from '../../database/firebase';
 
-import { getFunctions, httpsCallable } from "firebase/functions";
+import { getFunctions, httpsCallable, connectFunctionsEmulator } from "firebase/functions";
 
-const functions = getFunctions(app);
+// const functions = getFunctions(app);
 // connectFunctionsEmulator(functions, "localhost", 5001);
 const signalToMe = httpsCallable(functions, 'signalToMe');
-
 
 export async function post({ request }) {
 	// the `slug` parameter is available because this file
@@ -29,7 +28,6 @@ export async function post({ request }) {
   // return await signalToMe(JSON.stringify(data))
   .then((result) => {
     // Read result of the Cloud Function.
-    /** @type {any} */
     const data = result.data;
     return {
       result: data

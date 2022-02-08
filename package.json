@@ -6,6 +6,7 @@
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
+    "bpreview": "svelte-kit build && svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -35,6 +36,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "chart.js": "^3.6.2",
+    "dotenv": "^14.3.2",
     "firebase": "^9.6.4",
     "swiper": "^7.3.4"
   }

@@ -1,10 +1,28 @@
 <script>
-  import "https://www.google.com/recaptcha/api.js?render=6LfIMzEeAAAAAC23fgDZ4kEsOdf3WGCoFIvI8n9j";
   
+  import {  reCAPTCHA_site_key  } from '../const';
+  import { onMount } from 'svelte';
+  // import 'https://www.google.com/recaptcha/api.js?render=6Lf4KD8eAAAAAI_Rzp-EnwKUjBgdEW7_N4wkW7RG';
+
+  export let id;
+  export let sender;
+  export let value;
+  export let isValidated;
+
+  function validation(value = null){
+    isValidated = true
+  }
+
+  $: validation(value)
+
+  onMount(async ()=>{
+    validation(value)
+  })
 </script>
 
-<div class="g-recaptcha"
-      data-sitekey="_your_site_key_"
-      data-callback="onSubmit"
-      data-size="invisible">
+<div class="conversationLine isLeft">
+  <div class="lineSender">{sender}:</div>
+  <div class="planText">
+    Please click the button to validate
+  </div>
 </div>

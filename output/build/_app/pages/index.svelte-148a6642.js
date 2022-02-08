@@ -19,7 +19,7 @@ import{S as ge,i as ve,s as be,e as _,c as p,a as $,d as h,f as Ne,b as k,g as V
           I have over 3 years working experience as a programmer,`),c=_("br"),f=I(`\r
           My responsibilities contains e-commerce system development,`),m=_("br"),g=I(`\r
           Including analysis, design, development, QA and maintanence processes on frontend/backend/database.`),d=C(),b=_("br"),v=C(),w=_("p"),F=I("I have experiences with PHP, Node.js, Java,"),G=_("br"),M=I(`\r
-          but I am open to any language or area!`),Q=C(),ee=_("br"),z=C(),E=_("p"),D=I("I love to make thing simple,"),me=_("br"),le=I(`\r
+          but I am open to any language or area!`),Q=C(),ee=_("br"),z=C(),E=_("p"),D=I("I love to make things simple,"),me=_("br"),le=I(`\r
           I have a tendency on designing something reusable in programming way,`),ce=_("br"),te=I(`\r
           Like implementing a common module or component.`),$e=_("br"),ie=I(`\r
           Also, thinking comprehensive is one of my features,`),_e=_("br"),ue=I(`\r
@@ -32,7 +32,7 @@ import{S as ge,i as ve,s as be,e as _,c as p,a as $,d as h,f as Ne,b as k,g as V
           I have over 3 years working experience as a programmer,`),c=p(he,"BR",{}),f=y(he,`\r
           My responsibilities contains e-commerce system development,`),m=p(he,"BR",{}),g=y(he,`\r
           Including analysis, design, development, QA and maintanence processes on frontend/backend/database.`),he.forEach(h),d=S(X),b=p(X,"BR",{}),v=S(X),w=p(X,"P",{});var Oe=$(w);F=y(Oe,"I have experiences with PHP, Node.js, Java,"),G=p(Oe,"BR",{}),M=y(Oe,`\r
-          but I am open to any language or area!`),Oe.forEach(h),Q=S(X),ee=p(X,"BR",{}),z=S(X),E=p(X,"P",{});var re=$(E);D=y(re,"I love to make thing simple,"),me=p(re,"BR",{}),le=y(re,`\r
+          but I am open to any language or area!`),Oe.forEach(h),Q=S(X),ee=p(X,"BR",{}),z=S(X),E=p(X,"P",{});var re=$(E);D=y(re,"I love to make things simple,"),me=p(re,"BR",{}),le=y(re,`\r
           I have a tendency on designing something reusable in programming way,`),ce=p(re,"BR",{}),te=y(re,`\r
           Like implementing a common module or component.`),$e=p(re,"BR",{}),ie=y(re,`\r
           Also, thinking comprehensive is one of my features,`),_e=p(re,"BR",{}),ue=y(re,`\r
