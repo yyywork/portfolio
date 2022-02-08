@@ -25,7 +25,7 @@ const firebaseConfig = {
 export const app = initializeApp(firebaseConfig);
 
 export const functions = getFunctions(app);
-connectFunctionsEmulator(functions, "localhost", 5001);
+// connectFunctionsEmulator(functions, "localhost", 5001);
 const getTokenAPI = httpsCallable(functions, 'fetchAppCheckToken');
 
 
